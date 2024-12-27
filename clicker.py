@@ -11,7 +11,7 @@ class ClickerGame:
         self.upgrade_cost = 10        # アップグレードのコスト
 
         # Pyxelの初期化
-        pyxel.init(160, 120, caption="クリックでお金を増やすゲーム")
+        pyxel.init(160, 120)
         pyxel.run(self.update, self.draw)
 
     def update(self):
